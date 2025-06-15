@@ -8,7 +8,7 @@
     <div class="hero">
       <div class="hero-text-container">
         <h1>Sterk in lassen,<br>Sterk in service.</h1>
-        <p class="hero-text">Herstelling van uw aanhangwagen of op locatie - Wij lassen het voor u.</p>
+        <p class="hero-text">Lassen van staal, inox & aluminium.</p>
 
         <a href="tel:+32471348815" class="cta">Bel ons</a>
       </div>
@@ -19,22 +19,23 @@
 
   <div class="section section-light section-no-full-height about-us">
     <h2>Over ons</h2>
-    <p>Met jaren ervaring in de metaalsector biedt Van Daele Laswerken kwalitatieve lasoplossingen voor particulieren en bedrijven.</p>
+    <p>Met ondertussen 10 jaar ervaring in de metaalsector bieden wij een snelle en kwalitatieve service.
+      Voor het lassen/herstellen van landbouwmachines kraanbakken aanhangwagens containers… zowel in de werkplaats als ter plaatse.</p>
 
     <div class="about-us-features">
       <div class="about-us-features-item">
-        <Icon name="material-symbols:check" :size="30"/>
-        <p>Betrouwbaar</p>
+        <Icon name="material-symbols:check" :size="24"/>
+        <p>Mig</p>
       </div>
 
       <div class="about-us-features-item">
-        <Icon name="material-symbols:check" :size="30"/>
-        <p>Vakmanschap</p>
+        <Icon name="material-symbols:check" :size="24"/>
+        <p>Tig</p>
       </div>
 
       <div class="about-us-features-item">
-        <Icon name="material-symbols:check" :size="30"/>
-        <p>Flexibel</p>
+        <Icon name="material-symbols:check" :size="24"/>
+        <p>Elektrode</p>
       </div>
     </div>
 
@@ -55,7 +56,7 @@
 
       <div class="about-us-services-item">
         <Icon name="material-symbols:join-left-rounded" :size="60"/>
-        <p>Oplassingen</p>
+        <p>Oplassen van slijtdelen</p>
       </div>
     </div>
   </div>
@@ -91,8 +92,8 @@
   useSeoMeta({
     title: 'Laswerken Van Daele',
     ogTitle: 'Laswerken Van Daele',
-    description: 'Laswerken Van Daele biedt betrouwbare en flexibele lasoplossingen voor particulieren en bedrijven.',
-    ogDescription: 'Laswerken Van Daele biedt betrouwbare en flexibele lasoplossingen voor particulieren en bedrijven.',
+    description: 'Laswerken Van Daele biedt betrouwbare en flexibele lasoplossingen voor bedrijven.',
+    ogDescription: 'Laswerken Van Daele biedt betrouwbare en flexibele lasoplossingen voor bedrijven.',
   })
 </script>
 
@@ -306,6 +307,7 @@
         border-radius: 2rem;
         color: $primary-color;
         padding: 0 2rem;
+        text-align: center;
         animation: 300ms fadeIn;
 
         p, .iconify {
