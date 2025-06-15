@@ -127,6 +127,16 @@
       padding: 6rem 12rem;
       height: auto;
     }
+
+
+    @media screen and (max-width: 1024px) {
+      height: auto;
+
+      &-no-full-height {
+        padding: 2rem 10%;
+        height: auto;
+      }
+    }
   }
 
   .header {
@@ -143,6 +153,12 @@
         width: 10rem;
         justify-self: center;
       }
+    }
+
+
+    @media screen and (max-width: 1024px) {
+      display: flex;
+      justify-content: center;
     }
   }
 
@@ -166,8 +182,8 @@
 
       h1 {
         font-weight: 100;
-        font-size: 5rem;
-        line-height: 6rem;
+        font-size: clamp(2rem, 5vw + 1rem, 8rem);
+        line-height: clamp(3rem, 5vw + 2rem, 9rem);
         margin: 0;
         color: $secondary-color-dark;
       }
@@ -192,6 +208,25 @@
         margin-top: 2rem;
       }
     }
+
+    @media screen and (max-width: 1024px) {
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      &-image {
+        height: calc(50%);
+        width: 80%;
+        padding: 0;
+        animation: 300ms fadeIn;
+      }
+
+      &-text-container {
+        margin: 5rem 0;
+        width: 80%;
+      }
+    }
   }
 
   .about-us {
@@ -201,16 +236,17 @@
       justify-content: center;
       gap: 10rem;
       width: 100%;
+      flex-wrap: wrap;
     }
 
       &-features-item {
-        background-color: $secondary-color;
+        background-color: $primary-color;
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 1rem;
         border-radius: 2rem;
-        color: $primary-color;
+        color: $secondary-color;
         padding: 0 2rem;
 
         .iconify {
@@ -237,11 +273,21 @@
         }
       }
     }
+
+    @media screen and (max-width: 1024px) {
+      &-features, &-services {
+        gap: 4rem;
+      }
+    }
   }
 
   .divider {
     margin: 6rem 0;
     border-bottom: 3px solid $primary-color;
     border-bottom-style: dashed;
+
+    @media screen and (max-width: 1024px) {
+      margin: 3rem 0;
+    }
   }
 </style>
