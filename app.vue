@@ -62,6 +62,12 @@
 </template>
 
 <script setup lang="ts">
+  useSeoMeta({
+    title: 'Laswerken Van Daele',
+    ogTitle: 'Laswerken Van Daele',
+    description: 'Laswerken Van Daele biedt betrouwbare en flexibele lasoplossingen voor particulieren en bedrijven.',
+    ogDescription: 'Laswerken Van Daele biedt betrouwbare en flexibele lasoplossingen voor particulieren en bedrijven.',
+  })
 </script>
 
 <style lang="scss">
