@@ -59,6 +59,32 @@
       </div>
     </div>
   </div>
+
+  <div class="section footer section-no-full-height">
+    <div class="invoice-card">
+      <h2>Offerte</h2>
+
+      <p>Neem contact met ons op voor een vrijblijvende offerte of meer informatie over onze diensten.</p>
+      <a href="mailto:vandaele-laswerken@outlook.be" class="cta">Vraag een offerte aan</a>
+    </div>
+
+    <div class="contact-card">
+      <h2>Contact</h2>
+
+      <ul>
+        <li>
+          Werkplaats: Bevrijdingslaan 114j, Appels 9200
+        </li>
+        <li>
+          <a href="tel:+32471348815">+32 471 34 88 15</a>
+        </li>
+        <li>
+          <a href="mailto:vandaele-laswerken@outlook.be">vandaele-laswerken@outlook.be</a>
+        </li>
+        <li>BTW nr: BE0781289666</li>
+      </ul>
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -97,7 +123,7 @@
   }
 
   html {
-    font-family: 'Anton', 'Montserrat', Arial, sans-serif;
+    font-family: 'Figtree', 'Montserrat', Arial, sans-serif;
     background-color: $primary-color;
   }
 
@@ -105,7 +131,7 @@
     margin: 0;
   }
 
-  h1, h2, h3, p, a, .iconify {
+  h1, h2, h3, p, a, .iconify, li {
     animation: 300ms slideInFromBottom;
   }
 
@@ -113,6 +139,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    color: $secondary-color;
 
     h2 {
       font-size: clamp(2rem, 5vw + 1rem, 4rem);
@@ -188,31 +215,18 @@
       margin-right: 1rem;
 
       h1 {
-        font-weight: 100;
-        font-size: clamp(2rem, 5vw + 1rem, 8rem);
-        line-height: clamp(3rem, 5vw + 2rem, 9rem);
+        font-weight: 700;
+        font-size: clamp(2.5rem, 4vw + 1rem, 8rem);
+        line-height: clamp(3rem, 4vw + 1rem, 9rem);
         margin: 0;
-        color: $secondary-color-dark;
+        color: $secondary-color;
       }
 
       .hero-text {
         font-family: 'Montserrat', Arial, sans-serif;
-        color: $secondary-color-dark;
         font-weight: 500;
         max-width: 40rem;
         margin-bottom: 2rem;
-      }
-
-      .cta {
-        display: inline-block;
-        text-decoration: none;
-        color: $secondary-color;
-        background-color: $accent-color;
-        padding: .75rem 2rem;
-        border-radius: 2rem;
-        font-family: 'Montserrat', Arial, sans-serif;
-        font-weight: 600;
-        margin-top: 2rem;
       }
     }
 
@@ -234,6 +248,19 @@
         width: 80%;
       }
     }
+  }
+
+  .cta {
+    display: inline-block;
+    text-decoration: none;
+    color: $secondary-color;
+    background-color: $accent-color;
+    padding: .75rem 2rem;
+    border-radius: 2rem;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 600;
+    margin-top: 2rem;
+    animation: 300ms fadeIn;
   }
 
   .about-us {
@@ -294,6 +321,47 @@
     @media screen and (max-width: 1024px) {
       &-features, &-services {
         gap: 2rem;
+      }
+    }
+  }
+
+  .footer {
+    flex-direction: row;
+    padding: 0;
+
+    .invoice-card {
+      margin: 6rem 3rem 6rem 12rem;
+      width: calc(50% - 15rem);
+    }
+
+    .contact-card {
+      width: calc(50% - 8rem);
+      margin: 4rem;
+      padding: 2rem;
+      background-color: $secondary-color;
+      color: $primary-color;
+
+      li, a {
+        text-decoration: none;
+        color: $primary-color;
+        font-family: 'Montserrat', Arial, sans-serif;
+        margin-bottom: 1rem;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+
+
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .invoice-card, .contact-card {
+        width: 80%;
+        margin: 2rem 0;
       }
     }
   }
