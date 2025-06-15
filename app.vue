@@ -146,7 +146,7 @@
       margin: 0;
     }
 
-    p {
+    p, li {
       font-family: 'Montserrat', Arial, sans-serif;
       font-size: clamp(.75rem, 2vw, 1rem);
       font-weight: 500;
