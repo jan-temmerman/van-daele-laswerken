@@ -109,12 +109,13 @@
     height: 100vh;
 
     h2 {
-      font-size: 4rem;
+      font-size: clamp(2rem, 5vw + 1rem, 4rem);
       margin: 0;
     }
 
     p {
       font-family: 'Montserrat', Arial, sans-serif;
+      font-size: clamp(.75rem, 2vw, 1rem);
       font-weight: 500;
     }
 
@@ -247,7 +248,12 @@
         gap: 1rem;
         border-radius: 2rem;
         color: $secondary-color;
-        padding: 0 2rem;
+        padding: 0 1.25rem;
+        animation: 300ms fadeIn;
+
+        p, .iconify {
+          animation: none;
+        }
 
         .iconify {
           color: $accent-color;
@@ -267,6 +273,11 @@
         border-radius: 2rem;
         color: $primary-color;
         padding: 0 2rem;
+        animation: 300ms fadeIn;
+
+        p, .iconify {
+          animation: none;
+        }
 
         .iconify {
           color: $accent-color;
@@ -276,7 +287,7 @@
 
     @media screen and (max-width: 1024px) {
       &-features, &-services {
-        gap: 4rem;
+        gap: 2rem;
       }
     }
   }
