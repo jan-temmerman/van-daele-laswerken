@@ -31,10 +31,16 @@
   }
 
   &-no-full-height {
-    padding: 6rem 12rem;
+    padding: 6rem 24rem;
     height: auto;
   }
 
+  @media screen and (max-width: 2024px) {
+    &-no-full-height {
+      padding: 6rem 18rem;
+      height: auto;
+    }
+  }
 
   @media screen and (max-width: 1024px) {
     height: auto;

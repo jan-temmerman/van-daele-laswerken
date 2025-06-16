@@ -7,6 +7,8 @@
       <NuxtLink to="/" class="no-animation logo-text">
         <NuxtImg src="/logo_text.png" alt="Logo" preload quality="10" format="webp" class="logo-text"/>
       </NuxtLink>
+
+      <div class="header-decoration"/>
     </div>
 </template>
 
@@ -31,6 +33,15 @@
       width: 10rem;
       justify-self: center;
     }
+  }
+
+  &-decoration {
+    position: absolute;
+    bottom: -4px;
+    left: calc(50% - 25px);
+    width: 50px;
+    height: 8px;
+    background-color: $accent-color;
   }
 
 

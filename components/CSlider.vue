@@ -1,14 +1,26 @@
 <template>
   <div class="c-base-slider">
+    <div class="c-base-slider-control">
+      <button @click="swiperEl.slidePrev()">
+        <Icon name="material-symbols:arrow-back-ios-new-rounded" :size="36"/>
+      </button>
+    </div>
+
     <Swiper v-bind="fullSwiperParams" @swiper="onSwiper">
       <slot/>
     </Swiper>
+
+    <div class="c-base-slider-control">
+      <button @click="swiperEl.slideNext()">
+        <Icon name="material-symbols:arrow-forward-ios-rounded" :size="36"/>
+      </button>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { Swiper } from 'swiper/vue';
-import { Keyboard, Scrollbar } from 'swiper/modules';
+import {Keyboard, Scrollbar} from 'swiper/modules';
 
 const props = withDefaults(defineProps<{
   swiperParams?: object
@@ -30,18 +42,10 @@ const fullSwiperParams = {
   grabCursor: true,
   resistance: false,
   preventInteractionOnTransition: true,
-  spaceBetween: 16,
+  spaceBetween: 1000,
   slidesPerView: 1,
   slidesOffsetBefore: 20,
   slidesOffsetAfter: 20,
-  breakpoints: {
-    1024: {
-      spaceBetween: 0,
-      slidesPerView: 1,
-      slidesOffsetBefore: 200,
-      slidesOffsetAfter: 200,
-    },
-  },
   ...props.swiperParams,
 };
 
@@ -72,16 +76,89 @@ function swiperLocker() {
 </script>
 
 <style lang="scss">
+@import '@/assets/css/main.scss';
+
 .c-base-slider {
-  width: 1px;
-  min-width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: 10rem auto 10rem;
+  padding: 0 20rem;
+  overflow: hidden;
 
   .swiper {
     width: 1px;
     min-width: 100%;
+    overflow: visible;
 
     .c-card-image {
       aspect-ratio: 3/4;
+    }
+  }
+
+  &-control {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10;
+    height: 100%;
+
+    button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 0.4rem;
+      color: $accent-color;
+      transition: scale 0.1s;
+
+      &:hover {
+        scale: 1.1;
+      }
+    }
+  }
+
+  @media screen and (max-width: 2024px) {
+    grid-template-columns: 10rem auto 10rem;
+    padding: 0 10rem;
+  }
+
+  @media screen and (max-width: 1024px) {
+    grid-template-columns: 0 auto 0;
+    padding: 0;
+    overflow: unset;
+
+    .swiper {
+      overflow: hidden;
+    }
+
+    &-control {
+      position: sticky;
+      top: 0;
+      max-height: 100vh;
+
+      button {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        aspect-ratio: 1;
+        background-color: $secondary-color-dark;
+
+        &:hover {
+          scale: 1;
+        }
+      }
+
+      &:first-of-type {
+        margin-right: -4rem;
+        & > button > span {
+          margin-right: .3rem;
+        }
+      }
+      &:last-of-type {
+        margin-left: -4rem;
+        & > button > span {
+          margin-left: .3rem;
+        }
+      }
     }
   }
 }

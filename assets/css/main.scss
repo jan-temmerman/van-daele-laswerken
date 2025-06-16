@@ -47,6 +47,36 @@ h1, h2, h3, p, a, .iconify, li {
     animation: none;
 }
 
+.frame-decoration-top {
+  position: absolute;
+  width: 20%;
+  aspect-ratio: 3/1;
+  top: -5px;
+  left: -5px;
+  border-top: 10px solid $accent-color;
+  border-left: 10px solid $accent-color;
+  z-index: 1000;
+
+  @media screen and (max-width: 1024px) {
+    border-width: 5px;
+  }
+}
+
+.frame-decoration-bottom {
+  position: absolute;
+  width: 20%;
+  aspect-ratio: 3/1;
+  bottom: -5px;
+  right: -5px;
+  border-bottom: 10px solid $accent-color;
+  border-right: 10px solid $accent-color;
+  z-index: 1000;
+
+  @media screen and (max-width: 1024px) {
+    border-width: 5px;
+  }
+}
+
 .hero {
   height: calc(100% - 7rem);
   margin-top: 7rem;
@@ -54,18 +84,27 @@ h1, h2, h3, p, a, .iconify, li {
   align-items: center;
   justify-content: right;
 
-  &-image {
+  &-image-container {
+    display: flex;
+    position: relative;
     height: calc(100% - 10rem);
     width: 40%;
+    margin: 5rem;
+    animation: 300ms fadeIn;
+  }
+
+  &-image {
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     object-position: top;
-    padding: 5rem;
     animation: 300ms fadeIn;
     transform: rotate(180deg);
   }
 
   &-text-container {
     margin-right: 1rem;
+    position: relative;
 
     h1 {
       font-weight: 700;
@@ -89,11 +128,11 @@ h1, h2, h3, p, a, .iconify, li {
     justify-content: center;
     align-items: center;
 
-    &-image {
-      height: calc(50%);
+    &-image-container {
+      height: 50%;
       width: 80%;
-      padding: 0;
-      animation: 300ms fadeIn;
+      margin: 0;
+      margin-bottom: 2rem;
     }
 
     &-text-container {
@@ -184,8 +223,13 @@ h1, h2, h3, p, a, .iconify, li {
 }
 
 .services {
-  margin: 0 6rem;
+  margin: 0 18rem;
   padding: 6rem;
+
+  @media screen and (max-width: 2024px) {
+    margin: 0 9rem;
+    padding: 6rem 9rem;
+  }
 
   @media screen and (max-width: 1024px) {
     margin: 5%;
@@ -198,7 +242,14 @@ h1, h2, h3, p, a, .iconify, li {
   padding-right: 0;
 
   h2 {
-    margin: 0 12rem;
+    margin: 0 24rem 2rem 24rem;
+  }
+
+
+  @media screen and (max-width: 2024px) {
+    h2 {
+      margin: 0 18rem 2rem 18rem;
+    }
   }
 
   @media screen and (max-width: 1024px) {
@@ -213,11 +264,9 @@ h1, h2, h3, p, a, .iconify, li {
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   text-align: left;
-  width: calc(100vw - 400px);
-
-  &:first-of-type {
-    margin-top: 4rem;
-  }
+  width: calc(100% - 48px - 8rem);
+  border: 4px dotted $accent-color;
+  padding: 4rem;
 
   & > &-image {
     object-fit: cover;
@@ -245,7 +294,8 @@ h1, h2, h3, p, a, .iconify, li {
 
   @media screen and (max-width: 1024px) {
     grid-template-columns: 1fr;
-    width: calc(100% - 40px);
+    width: calc(100% - 48px - 2rem);
+    padding: 1rem;
 
     & > &-image {
       width: 100%;
@@ -259,17 +309,18 @@ h1, h2, h3, p, a, .iconify, li {
 
 .footer {
   flex-direction: row;
+  gap: 10rem;
   padding: 0;
 
   .cta-card {
-    margin: 6rem 3rem 6rem 12rem;
-    width: calc(50% - 15rem);
+    margin: 6rem 0 6rem 24rem;
+    width: calc(50% - 20rem);
   }
 
   .contact-card {
-    width: calc(50% - 8rem);
-    margin: 4rem;
-    padding: 2rem;
+    width: calc(50% - 24rem);
+    margin: 4rem 18rem 4rem 0;
+    padding: 2rem 6rem 2rem 2rem;
     background-color: $secondary-color;
     color: $primary-color;
 
@@ -290,6 +341,22 @@ h1, h2, h3, p, a, .iconify, li {
   }
 
 
+  @media screen and (max-width: 2024px) {
+    gap: 3rem;
+
+    .cta-card {
+      margin: 6rem 0 6rem 18rem;
+      width: calc(50% - 15rem);
+    }
+
+    .contact-card {
+      position: relative;
+      width: calc(50% - 18rem);
+      margin: 4rem 9rem 4rem 0;
+      padding: 2rem 9rem 2rem 2rem;
+    }
+  }
+
   @media screen and (max-width: 1024px) {
     flex-direction: column;
     align-items: center;
@@ -303,15 +370,5 @@ h1, h2, h3, p, a, .iconify, li {
     .contact-card {
       padding: 1rem;
     }
-  }
-}
-
-.divider {
-  margin: 6rem 0;
-  border-bottom: 3px solid $primary-color;
-  border-bottom-style: dashed;
-
-  @media screen and (max-width: 1024px) {
-    margin: 3rem 0;
   }
 }

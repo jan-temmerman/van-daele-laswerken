@@ -27,7 +27,7 @@
     </div>
   </CSection>
 
-  <CSection class="section-no-full-height services">
+  <CSection class="section-no-full-height services" style="position: relative">
     <h2>Diensten</h2>
 
     <div class="about-us-services">
@@ -46,6 +46,9 @@
         <p>Oplassen van slijtdelen</p>
       </div>
     </div>
+
+    <div class="frame-decoration-top"/>
+    <div class="frame-decoration-bottom"/>
   </CSection>
 
 
@@ -55,14 +58,15 @@
     <CSlider>
       <SwiperSlide>
         <div class="case-section">
-          <NuxtImg src="/cases/case_1_1.png" alt="Volledig zelfgemaakte Hijsjuk voor het verplaatsen van bomen" loading="lazy" class="case-section-image"/>
-
           <div class="case-section-text-container">
             <h3>Hijsjuk voor het verplaatsen van bomen</h3>
             <p>Tijdens een grote marktrenovatie in Zele zocht de gemeente een goede en veilige manier om de gezonde bomen te verplaatsen. De aannemer contacteerde mij en het resultaat is deze hijsjuk gemaakt voor het verplaatsen van bomen.</p>
             <NuxtImg src="/cases/case_1_2.png" alt="De zelfgemaakte hijsjuk in actie" loading="lazy" class="case-section-image"/>
           </div>
-        </div>    </SwiperSlide>
+
+          <NuxtImg src="/cases/case_1_1.png" alt="Volledig zelfgemaakte Hijsjuk voor het verplaatsen van bomen" loading="lazy" class="case-section-image"/>
+        </div>
+      </SwiperSlide>
 
       <SwiperSlide>
         <div class="case-section case-section-reversed">
@@ -77,13 +81,13 @@
 
       <SwiperSlide>
         <div class="case-section">
-          <NuxtImg src="/cases/case_3_1.png" alt="Connectie die wij aan het duwblad van een machine gelast hebben" loading="lazy" class="case-section-image"/>
-
           <div class="case-section-text-container">
             <h3>Afneembare trekhaak op duwblad</h3>
             <p>Deze klant zocht een oplossing om een trekhaak op dit duwblad te monteren. Wij hebben een connectie stuk op het duwblad gelast waaraan een trekhaak gemonteerd kan worden.</p>
             <NuxtImg src="/cases/case_3_2.png" alt="Trekhaak die aan onze opgelaste connectie is gemonteerd" loading="lazy" class="case-section-image"/>
           </div>
+
+          <NuxtImg src="/cases/case_3_1.png" alt="Connectie die wij aan het duwblad van een machine gelast hebben" loading="lazy" class="case-section-image"/>
         </div>
       </SwiperSlide>
     </CSlider>
@@ -112,6 +116,9 @@
         </li>
         <li>BTW nr: BE0781289666</li>
       </ul>
+
+      <div class="frame-decoration-top"/>
+      <div class="frame-decoration-bottom"/>
     </div>
   </CSection>
 </template>
