@@ -6,6 +6,14 @@ export default defineNuxtConfig({
     name: 'Laswerken Van Daele',
   },
   tools: { enabled: true },
-  modules: ['@nuxt/image', '@nuxt/icon', '@nuxtjs/seo'],
-  css: ['~/assets/css/main.scss'],
+  modules: [
+    '@nuxt/image',
+    '@nuxt/icon',
+    '@nuxtjs/seo',
+  ],
+  css: [
+    'swiper/scss',
+    'swiper/scss/scrollbar',
+    '~/assets/css/main.scss',
+  ],
 })

@@ -1,0 +1,44 @@
+<template>
+    <div class="header">
+      <NuxtLink to="/" class="no-animation logo">
+        <NuxtImg src="/logo_icon.png" alt="Logo" preload quality="10" format="webp" class="logo"/>
+      </NuxtLink>
+
+      <NuxtLink to="/" class="no-animation logo-text">
+        <NuxtImg src="/logo_text.png" alt="Logo" preload quality="10" format="webp" class="logo-text"/>
+      </NuxtLink>
+    </div>
+</template>
+
+<style lang="scss">
+@import '@/assets/css/main.scss';
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: $secondary-color-dark;
+  padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  min-height: 5rem;
+
+  .logo {
+    width: 6rem;
+    &-text {
+      width: 10rem;
+      justify-self: center;
+    }
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+</style>
+<script setup lang="ts">
+</script>
