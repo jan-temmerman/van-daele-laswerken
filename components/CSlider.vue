@@ -1,7 +1,7 @@
 <template>
   <div class="c-base-slider">
     <div class="c-base-slider-control">
-      <button @click="swiperEl.slidePrev()">
+      <button aria-label="Cases carousel go to previous case" @click="swiperEl.slidePrev()">
         <Icon name="material-symbols:arrow-back-ios-new-rounded" :size="36"/>
       </button>
     </div>
@@ -11,7 +11,7 @@
     </Swiper>
 
     <div class="c-base-slider-control">
-      <button @click="swiperEl.slideNext()">
+      <button aria-label="Cases carousel go to next case" @click="swiperEl.slideNext()">
         <Icon name="material-symbols:arrow-forward-ios-rounded" :size="36"/>
       </button>
     </div>
