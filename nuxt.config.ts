@@ -3,7 +3,10 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   ssr: true,
   nitro: {
-    preset: 'vercel'
+    preset: 'vercel',
+    prerender: {
+      routes: ['/'],
+    }
   },
   site: {
     url: 'https://van-daele-laswerken.be',

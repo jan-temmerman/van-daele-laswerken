@@ -1,11 +1,11 @@
 <template>
     <div class="header">
       <NuxtLink to="/" class="no-animation logo">
-        <NuxtImg src="/logo_icon.png" alt="Logo" preload quality="10" format="webp" class="logo"/>
+        <NuxtImg src="/logo_icon.png" alt="Logo" preload format="webp" class="logo"/>
       </NuxtLink>
 
       <NuxtLink to="/" class="no-animation logo-text">
-        <NuxtImg src="/logo_text.png" alt="Logo" preload quality="10" format="webp" class="logo-text"/>
+        <NuxtImg src="/logo_text.png" alt="Logo" preload format="webp" class="logo-text"/>
       </NuxtLink>
 
       <div class="header-decoration"/>

@@ -10,7 +10,7 @@
     </div>
 
     <div class="hero-image-container">
-      <NuxtImg src="/hero_image.png" :placeholder="blurUrl" alt="De werkplaats in Appels" preload quality="40" format="webp" class="hero-image"/>
+      <NuxtImg src="/hero_image.png" :placeholder="blurUrl" alt="De werkplaats in Appels" preload format="webp" class="hero-image"/>
       <div class="frame-decoration-bottom"/>
     </div>
   </div>
