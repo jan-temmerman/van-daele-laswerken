@@ -76,7 +76,8 @@ function swiperLocker() {
 </script>
 
 <style lang="scss">
-@import '@/assets/css/main.scss';
+@use '@/assets/css/main.scss';
+@use '@/assets/css/variables' as *;
 
 .c-base-slider {
   position: relative;
@@ -92,6 +93,11 @@ function swiperLocker() {
 
     .c-card-image {
       aspect-ratio: 3/4;
+    }
+
+    &-slide {
+      display: flex;
+      align-items: center;
     }
   }
 

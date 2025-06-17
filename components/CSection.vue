@@ -5,7 +5,8 @@
 </template>
 
 <style lang="scss">
-@import '@/assets/css/main.scss';
+@use '@/assets/css/main.scss';
+@use '@/assets/css/variables' as *;
 
 .section {
   display: flex;

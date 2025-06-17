@@ -1,8 +1,5 @@
+@use 'variables' as *;
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-$primary-color: #1d382a;
-$secondary-color: #dddcd8;
-$accent-color: #CC6410FF;
 
 @keyframes slideInFromBottom {
   0% {

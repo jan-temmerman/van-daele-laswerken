@@ -72,7 +72,7 @@
         <div class="case-section case-section-reversed">
           <div class="case-section-text-container">
             <h3>Nieuwe bodem voor zuigwagen</h3>
-            <p>De zuigwagen van deze klant had nood aan een nieuwe bodem, dus hebben wij deze voorzien en opgelast.</p>
+            <p>De zuigwagen van deze klant had nood aan een nieuwe bodem, dus hebben wij deze voorzien en ingelast.</p>
             <NuxtImg src="/cases/case_2_1.png" placeholder="/cases/case_2_1_placeholder.png" alt="Zuigwagen met een nieuwe bodem opgelast" loading="lazy" class="case-section-image"/>
           </div>
 
@@ -129,7 +129,7 @@ import { SwiperSlide } from 'swiper/vue';
 
 useSeoMeta({
   title: 'Home',
-  ogTitle: 'Home',
+  ogTitle: 'Laswerken Van Daele',
   ogImage: 'https://van-daele-laswerken.be/ogImage.png',
   description: 'Mobiele las herstellingen en oplassingen voor bedrijven (staal, inox & aluminium).',
   ogDescription: 'Mobiele las herstellingen en oplassingen voor bedrijven (staal, inox & aluminium).',
@@ -137,5 +137,6 @@ useSeoMeta({
 </script>
 
 <style lang="scss">
-@import '@/assets/css/main.scss';
+@use '@/assets/css/main.scss';
+@use '@/assets/css/variables' as *;
 </style>
