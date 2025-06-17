@@ -99,7 +99,6 @@ h1, h2, h3, p, a, .iconify, li {
     object-fit: cover;
     object-position: top;
     animation: 300ms fadeIn;
-    transform: rotate(180deg);
   }
 
   &-text-container {
@@ -165,7 +164,7 @@ h1, h2, h3, p, a, .iconify, li {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
-    gap: 10rem;
+    gap: 10vw;
     width: 100%;
     flex-wrap: wrap;
   }
@@ -212,6 +211,14 @@ h1, h2, h3, p, a, .iconify, li {
       .iconify {
         color: $accent-color;
       }
+    }
+  }
+
+  @media screen and (max-width: 2024px) {
+
+    &-services {
+      justify-content: space-around;
+      gap: 2rem;
     }
   }
 
