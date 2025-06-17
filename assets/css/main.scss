@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 $primary-color: #1d382a;
-$secondary-color: #efefeb;
-$secondary-color-dark: #d9d8d2;
+$secondary-color: #dddcd8;
 $accent-color: #CC6410FF;
 
 @keyframes slideInFromBottom {
@@ -99,6 +98,7 @@ h1, h2, h3, p, a, .iconify, li {
     object-fit: cover;
     object-position: top;
     animation: 300ms fadeIn;
+    background-color: $secondary-color;
   }
 
   &-text-container {

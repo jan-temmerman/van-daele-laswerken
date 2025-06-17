@@ -20,7 +20,7 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: $secondary-color-dark;
+  background-color: $secondary-color;
   padding: 1rem 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

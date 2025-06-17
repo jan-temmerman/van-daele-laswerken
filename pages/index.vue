@@ -61,10 +61,10 @@
           <div class="case-section-text-container">
             <h3>Hijsjuk voor het verplaatsen van bomen</h3>
             <p>Tijdens een grote marktrenovatie in Zele zocht de gemeente een goede en veilige manier om de gezonde bomen te verplaatsen. De aannemer contacteerde mij en het resultaat is deze hijsjuk gemaakt voor het verplaatsen van bomen.</p>
-            <NuxtImg src="/cases/case_1_2.png" alt="De zelfgemaakte hijsjuk in actie" loading="lazy" quality="20" class="case-section-image"/>
+            <NuxtImg src="/cases/case_1_1.png" placeholder="/cases/case_1_1_placeholder.png" alt="De zelfgemaakte hijsjuk in actie" loading="lazy" quality="20" class="case-section-image"/>
           </div>
 
-          <NuxtImg src="/cases/case_1_1.png" alt="Volledig zelfgemaakte Hijsjuk voor het verplaatsen van bomen" quality="20" loading="lazy" class="case-section-image"/>
+          <NuxtImg src="/cases/case_1_2.png" placeholder="/cases/case_1_2_placeholder.png" alt="Volledig zelfgemaakte Hijsjuk voor het verplaatsen van bomen" quality="20" loading="lazy" class="case-section-image"/>
         </div>
       </SwiperSlide>
 
@@ -73,10 +73,10 @@
           <div class="case-section-text-container">
             <h3>Nieuwe bodem voor zuigwagen</h3>
             <p>De zuigwagen van deze klant had nood aan een nieuwe bodem, dus hebben wij deze voorzien en opgelast.</p>
-            <NuxtImg src="/cases/case_2_1.png" alt="Zuigwagen met een nieuwe bodem opgelast" quality="20" loading="lazy" class="case-section-image"/>
+            <NuxtImg src="/cases/case_2_1.png" placeholder="/cases/case_2_1_placeholder.png" alt="Zuigwagen met een nieuwe bodem opgelast" quality="20" loading="lazy" class="case-section-image"/>
           </div>
 
-          <NuxtImg src="/cases/case_2_2.png" alt="Zuigwagen zonder bodem" quality="20"  loading="lazy" class="case-section-image"/>
+          <NuxtImg src="/cases/case_2_2.png" placeholder="/cases/case_2_2_placeholder.png" alt="Zuigwagen zonder bodem" quality="20"  loading="lazy" class="case-section-image"/>
         </div>    </SwiperSlide>
 
       <SwiperSlide>
@@ -84,10 +84,10 @@
           <div class="case-section-text-container">
             <h3>Afneembare trekhaak op duwblad</h3>
             <p>Deze klant zocht een oplossing om een trekhaak op dit duwblad te monteren. Wij hebben een connectie stuk op het duwblad gelast waaraan een trekhaak gemonteerd kan worden.</p>
-            <NuxtImg src="/cases/case_3_2.png" alt="Trekhaak die aan onze opgelaste connectie is gemonteerd" quality="20"  loading="lazy" class="case-section-image"/>
+            <NuxtImg src="/cases/case_3_1.png" placeholder="/cases/case_3_1_placeholder.png" alt="Trekhaak die aan onze opgelaste connectie is gemonteerd" quality="20"  loading="lazy" class="case-section-image"/>
           </div>
 
-          <NuxtImg src="/cases/case_3_1.png" alt="Connectie die wij aan het duwblad van een machine gelast hebben" quality="20"  loading="lazy" class="case-section-image"/>
+          <NuxtImg src="/cases/case_3_2.png" placeholder="/cases/case_3_2_placeholder.png" alt="Connectie die wij aan het duwblad van een machine gelast hebben" quality="20"  loading="lazy" class="case-section-image"/>
         </div>
       </SwiperSlide>
     </CSlider>

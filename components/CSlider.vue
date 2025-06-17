@@ -140,7 +140,7 @@ function swiperLocker() {
         height: 4rem;
         border-radius: 50%;
         aspect-ratio: 1;
-        background-color: $secondary-color-dark;
+        background-color: $secondary-color;
 
         &:hover {
           scale: 1;
