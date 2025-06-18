@@ -128,7 +128,6 @@ import CHeader from "~/components/CHeader.vue";
 import { SwiperSlide } from 'swiper/vue';
 
 useSeoMeta({
-  title: 'Home',
   ogTitle: 'Laswerken Van Daele',
   ogImage: 'https://van-daele-laswerken.be/ogImage.png',
   description: 'Mobiele las herstellingen en oplassingen voor bedrijven (staal, inox & aluminium).',
