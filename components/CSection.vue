@@ -5,7 +5,6 @@
 </template>
 
 <style lang="scss">
-@use '@/assets/css/main.scss';
 @use '@/assets/css/variables' as *;
 
 .section {

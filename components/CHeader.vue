@@ -1,11 +1,11 @@
 <template>
     <div class="header">
-      <NuxtLink to="/" class="no-animation logo">
-        <NuxtImg src="/logo_icon.png" alt="Logo" preload format="webp" class="logo"/>
+      <NuxtLink to="/" class="no-animation logo" aria-label="Laswerken Van Daele - home">
+        <NuxtImg src="/logo_mark.png" alt="Logo Laswerken Van Daele" width="96" height="87" densities="x1 x2" preload format="webp" class="logo"/>
       </NuxtLink>
 
-      <NuxtLink to="/" class="no-animation logo-text">
-        <NuxtImg src="/logo_text.png" alt="Logo" preload format="webp" class="logo-text"/>
+      <NuxtLink to="/" class="no-animation logo-text" aria-label="Laswerken Van Daele - home">
+        <NuxtImg src="/logo_text.png" alt="Laswerken Van Daele" width="160" height="59" densities="x1 x2" preload format="webp" class="logo-text"/>
       </NuxtLink>
 
       <div class="header-decoration"/>
@@ -13,7 +13,6 @@
 </template>
 
 <style lang="scss">
-@use '@/assets/css/main.scss';
 @use '@/assets/css/variables' as *;
 
 .header {
@@ -30,8 +29,10 @@
 
   .logo {
     width: 6rem;
+    height: auto;
     &-text {
       width: 10rem;
+      height: auto;
       justify-self: center;
     }
   }

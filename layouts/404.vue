@@ -12,10 +12,9 @@
 </template>
 
 <style lang="scss">
-@use '@/assets/css/main.scss';
 @use '@/assets/css/variables' as *;
 
-.not-found-section {
+.section.not-found-section {
   justify-content: center;
   align-items: center;
   height: 100vh;

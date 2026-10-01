@@ -1,75 +1,35 @@
-# Nuxt Minimal Starter
+# Laswerken Van Daele
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Website van Laswerken Van Daele, gebouwd met Nuxt en volledig statisch gegenereerd.
 
-## Setup
-
-Make sure to install dependencies:
+## Development
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
+## Build
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+npm run generate
 ```
 
-Locally preview production build:
+De statische site komt in `.output/public` (ook bereikbaar via de symlink `dist`).
 
-```bash
-# npm
-npm run preview
+## Hosting (Cloudflare Worker, Git-integratie)
 
-# pnpm
-pnpm preview
+De site draait als Worker met enkel static assets (geen SSR), geconfigureerd in `wrangler.jsonc`.
 
-# yarn
-yarn preview
+- Build command: `npm run generate`
+- Deploy command: `npx wrangler deploy`
+- Lokaal testen na een build: `npx wrangler dev`
+- De `name` in `wrangler.jsonc` moet overeenkomen met de naam van de Worker in Cloudflare.
+- `public/_headers` zet lange cache-headers op `/_nuxt/*` en `/_ipx/*`.
+- Stel in Cloudflare een redirect in van `www.van-daele-laswerken.be` naar `van-daele-laswerken.be` (Bulk Redirects of een Redirect Rule).
 
-# bun
-bun run preview
-```
+## SEO
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- Site-instellingen, LocalBusiness-schema en taal staan in `nuxt.config.ts` (`site` en `schemaOrg`).
+- Titel, description, social preview en FAQ-schema van de homepage staan in `pages/index.vue`.
+- `robots.txt` en `sitemap.xml` worden automatisch gegenereerd door `@nuxtjs/seo`.

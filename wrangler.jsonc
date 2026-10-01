@@ -1,0 +1,9 @@
+{
+  "name": "van-daele-laswerken",
+  "compatibility_date": "2026-10-01",
+  // Volledig statische site (nuxt generate): enkel assets, geen Worker-script
+  "assets": {
+    "directory": "./.output/public",
+    "not_found_handling": "404-page"
+  }
+}

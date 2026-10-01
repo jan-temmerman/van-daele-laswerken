@@ -1,1 +1,14 @@
-{"name":"Laswerken Van Daele","short_name":"Laswerken Van Daele","icons":[{"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+{
+  "name": "Laswerken Van Daele",
+  "short_name": "Van Daele",
+  "description": "Laswerken in staal, inox en aluminium in Appels (Dendermonde), in de werkplaats of ter plaatse.",
+  "lang": "nl-BE",
+  "start_url": "/",
+  "icons": [
+    { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#1d382a",
+  "background_color": "#dddcd8",
+  "display": "standalone"
+}
