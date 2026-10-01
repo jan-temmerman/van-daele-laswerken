@@ -3,6 +3,8 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   ssr: true,
   nitro: {
+    // Vast op static: anders kiest nitro op Cloudflare (WORKERS_CI) de SSR-preset cloudflare-module
+    preset: 'static',
     prerender: {
       routes: ['/'],
     }
