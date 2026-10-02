@@ -121,6 +121,7 @@
 
       <address>
         <ul>
+          <li>Laswerken Van Daele - Robin Van Daele</li>
           <li>
             Werkplaats:
             <a href="https://www.google.com/maps/search/?api=1&query=Bevrijdingslaan+114J%2C+9200+Appels" target="_blank" rel="noopener">Bevrijdingslaan 114J, 9200 Appels</a>
@@ -131,7 +132,10 @@
           <li>
             <a href="mailto:vandaele-laswerken@outlook.be">vandaele-laswerken@outlook.be</a>
           </li>
-          <li>BTW nr: BE0781289666</li>
+          <li>Ondernemingsnummer / btw: BE&nbsp;0781.289.666</li>
+          <li>
+            <NuxtLink to="/privacy">Privacyverklaring</NuxtLink>
+          </li>
         </ul>
       </address>
 

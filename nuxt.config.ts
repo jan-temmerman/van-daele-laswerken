@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     // Vast op static: anders kiest nitro op Cloudflare (WORKERS_CI) de SSR-preset cloudflare-module
     preset: 'static',
     prerender: {
-      routes: ['/'],
+      routes: ['/', '/privacy'],
     }
   },
   site: {
@@ -31,6 +31,8 @@ export default defineNuxtConfig({
     identity: {
       type: 'LocalBusiness',
       name: 'Laswerken Van Daele',
+      legalName: 'Robin Van Daele',
+      founder: { '@type': 'Person', name: 'Robin Van Daele' },
       description: 'Laswerken in staal, inox en aluminium. Herstellingen van metalen constructies, lassen op locatie en oplassen van slijtdelen.',
       logo: '/logo-512.png',
       image: '/og-image.jpg',
