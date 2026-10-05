@@ -14,8 +14,6 @@ export default defineNuxtConfig({
     name: 'Laswerken Van Daele',
     description: 'Laswerken in staal, inox en aluminium: herstelling van landbouwmachines, kraanbakken en aanhangwagens. In onze werkplaats in Appels of ter plaatse.',
     defaultLocale: 'nl-BE',
-    // Voorlopig niet indexeren; weghalen bij de lancering
-    indexable: false,
   },
   app: {
     head: {
