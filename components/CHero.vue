@@ -3,16 +3,16 @@
     <div class="hero-text-container">
       <div class="frame-decoration-top" style="top: -10px; left: -20px"/>
 
-      <p class="hero-slogan">Sterk in lassen,<br>Sterk in service.</p>
-      <h1 class="hero-text">Laswerken in staal, inox & aluminium in Appels (Dendermonde), in de werkplaats of ter plaatse.</h1>
+      <p class="hero-slogan">{{ $t('hero.sloganLine1') }}<br>{{ $t('hero.sloganLine2') }}</p>
+      <h1 class="hero-text">{{ $t('hero.title') }}</h1>
 
-      <a href="tel:+32471348815" class="cta">Bel ons</a>
+      <a href="tel:+32471348815" class="cta">{{ $t('hero.cta') }}</a>
     </div>
 
     <div class="hero-image-container">
       <NuxtImg
         src="/hero_image.png"
-        alt="De werkplaats van Laswerken Van Daele in Appels"
+        :alt="$t('hero.imageAlt')"
         sizes="sm:80vw md:80vw lg:80vw 2xl:60vw"
         format="webp"
         :preload="{ fetchPriority: 'high' }"

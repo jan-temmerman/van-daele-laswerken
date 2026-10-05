@@ -1,0 +1,153 @@
+{
+  "nuxtSiteConfig": {
+    "description": "Soudure de l'acier, de l'inox et de l'aluminium : réparation de machines agricoles, de godets de pelleteuse et de remorques. Dans notre atelier à Appels ou sur place."
+  },
+  "header": {
+    "home": "Laswerken Van Daele - accueil",
+    "logoAlt": "Logo de Laswerken Van Daele",
+    "language": "Choisir la langue"
+  },
+  "hero": {
+    "sloganLine1": "Fort en soudure,",
+    "sloganLine2": "Fort en service.",
+    "title": "Soudure de l'acier, de l'inox & de l'aluminium à Appels (Termonde), en atelier ou sur place.",
+    "cta": "Appelez-nous",
+    "imageAlt": "L'atelier de Laswerken Van Daele à Appels"
+  },
+  "home": {
+    "seo": {
+      "title": "Soudure mobile à Appels & Termonde",
+      "description": "Soudure de l'acier, de l'inox et de l'aluminium : réparation de machines agricoles, de godets de pelleteuse et de remorques. Dans notre atelier à Appels ou sur place.",
+      "imageAlt": "Logo de Laswerken Van Daele avec ses coordonnées"
+    },
+    "about": {
+      "title": "À propos",
+      "text1": "Forte de 10 ans d'expérience dans le secteur du métal, Laswerken Van Daele offre un service rapide et de qualité. Nous soudons et réparons des machines agricoles, des godets de pelleteuse, des remorques, des conteneurs et d'autres constructions métalliques. Le travail peut se faire dans notre atelier à Appels (Termonde) ou sur place, lorsque la machine ne peut pas être déplacée.",
+      "text2": "Nous soudons l'acier, l'inox et l'aluminium avec les procédés MIG, TIG et à l'électrode.",
+      "electrode": "Électrode"
+    },
+    "services": {
+      "title": "Services",
+      "repair": {
+        "title": "Réparation de constructions métalliques",
+        "text": "Fissures, cassures et pièces usées sur machines agricoles, godets de pelleteuse, remorques et conteneurs : nous les réparons dans les règles de l'art."
+      },
+      "onSite": {
+        "title": "Soudure sur site",
+        "text": "La machine ou la construction ne peut pas venir à l'atelier ? Nous venons souder sur place."
+      },
+      "hardfacing": {
+        "title": "Rechargement de pièces d'usure",
+        "text": "Les pièces d'usure, par exemple de godets de pelleteuse et de machines agricoles, sont rechargées par soudure pour durer plus longtemps."
+      }
+    },
+    "cases": {
+      "title": "Réalisations",
+      "previous": "Réalisation précédente",
+      "next": "Réalisation suivante",
+      "liftingBeam": {
+        "title": "Palonnier pour le déplacement d'arbres",
+        "text": "Lors d'une grande rénovation de la place du marché à Zele, la commune cherchait un moyen sûr et efficace de déplacer les arbres sains. L'entrepreneur m'a contacté, et le résultat est ce palonnier conçu pour déplacer des arbres.",
+        "imageAlt1": "Le palonnier fait sur mesure en action",
+        "imageAlt2": "Palonnier entièrement fabriqué sur mesure pour le déplacement d'arbres"
+      },
+      "vacuumTanker": {
+        "title": "Nouveau fond pour une citerne à vide",
+        "text": "La citerne à vide de ce client avait besoin d'un nouveau fond : nous l'avons fabriqué et soudé en place.",
+        "imageAlt1": "Citerne à vide avec son nouveau fond soudé",
+        "imageAlt2": "Citerne à vide sans fond"
+      },
+      "towHitch": {
+        "title": "Crochet d'attelage amovible sur une lame de poussée",
+        "text": "Ce client cherchait une solution pour monter un crochet d'attelage sur cette lame de poussée. Nous avons soudé sur la lame une pièce de raccordement sur laquelle un crochet d'attelage peut être monté.",
+        "imageAlt1": "Crochet d'attelage monté sur la pièce de raccordement que nous avons soudée",
+        "imageAlt2": "Pièce de raccordement que nous avons soudée sur la lame de poussée d'une machine"
+      }
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "items": [
+        {
+          "question": "Venez-vous aussi souder sur place ?",
+          "answer": "Oui. Le travail peut se faire dans notre atelier à Appels, mais nous venons aussi sur place lorsque la machine ou la construction ne peut pas être déplacée."
+        },
+        {
+          "question": "Quels matériaux pouvez-vous souder ?",
+          "answer": "Nous soudons l'acier, l'inox et l'aluminium."
+        },
+        {
+          "question": "Quels procédés de soudage utilisez-vous ?",
+          "answer": "Nous travaillons en MIG, en TIG et à l'électrode, selon le matériau et l'application."
+        },
+        {
+          "question": "Dans quelle région travaillez-vous ?",
+          "answer": "Notre atelier se trouve à Appels (Termonde). À partir de là, nous travaillons dans toute la région de Termonde."
+        },
+        {
+          "question": "Comment demander un prix ou un devis ?",
+          "answer": "Appelez-nous au {phone} ou envoyez un e-mail à {email} avec une courte description et, si possible, des photos du travail."
+        }
+      ]
+    },
+    "contact": {
+      "ctaTitle": "Besoin d'un soudeur ?",
+      "ctaText": "Contactez-nous pour discuter de votre problème ou de votre idée, ou pour en savoir plus sur nos services.",
+      "ctaButton": "Envoyez-nous un e-mail",
+      "title": "Contact",
+      "workshop": "Atelier :",
+      "vat": "Numéro d'entreprise / TVA :"
+    }
+  },
+  "privacy": {
+    "seo": {
+      "description": "Comment Laswerken Van Daele traite vos données personnelles."
+    },
+    "title": "Déclaration de confidentialité",
+    "updated": "Dernière mise à jour le 2 octobre 2026",
+    "who": {
+      "title": "Qui est responsable ?",
+      "text": "Laswerken Van Daele est la dénomination commerciale de Robin Van Daele, numéro d'entreprise BE 0781.289.666. Il est responsable du traitement de vos données personnelles tel que décrit dans la présente déclaration de confidentialité.",
+      "address": "Adresse :",
+      "email": "E-mail :",
+      "phone": "Téléphone :"
+    },
+    "data": {
+      "title": "Quelles données traitons-nous ?",
+      "text": "Lorsque vous nous envoyez un e-mail ou nous appelez, nous traitons les données que vous nous communiquez vous-même, comme votre nom, votre adresse e-mail, votre numéro de téléphone, votre adresse, le contenu de votre message et d'éventuelles photos du travail. Lorsque nous réalisons une mission pour vous, nous traitons également les données nécessaires à l'établissement du devis et à la facturation."
+    },
+    "purpose": {
+      "title": "Pourquoi traitons-nous ces données ?",
+      "items": [
+        "Pour répondre à votre question ou établir un devis, à votre demande.",
+        "Pour exécuter et facturer la mission, sur la base du contrat conclu avec vous.",
+        "Pour respecter nos obligations légales, comme nos obligations comptables et fiscales."
+      ],
+      "text": "Nous n'utilisons pas vos données à des fins publicitaires et ne les vendons pas à des tiers."
+    },
+    "sharing": {
+      "title": "Avec qui partageons-nous vos données ?",
+      "text": "Nous ne partageons vos données que lorsque c'est nécessaire, par exemple avec notre comptable, notre service de messagerie et l'hébergeur de ce site web, ou lorsque la loi nous y oblige."
+    },
+    "website": {
+      "title": "Ce site web",
+      "text": "Ce site web n'utilise pas de cookies ni de services d'analyse ou de suivi. Il est hébergé par Cloudflare. Lors d'une visite, des données techniques comme votre adresse IP sont traitées afin d'afficher et de sécuriser le site web. Le lien vers Google Maps ouvre un site web externe, auquel s'applique la politique de confidentialité de Google."
+    },
+    "retention": {
+      "title": "Combien de temps conservons-nous vos données ?",
+      "text": "Nous ne conservons pas vos données plus longtemps que nécessaire pour la finalité pour laquelle elles ont été collectées. Les données que nous devons conserver pour la comptabilité et la TVA sont conservées aussi longtemps que la loi l'exige."
+    },
+    "rights": {
+      "title": "Vos droits",
+      "text": "Vous avez le droit de consulter vos données, de les faire rectifier ou de les faire effacer. Vous pouvez également demander la limitation du traitement, vous opposer au traitement ou demander vos données afin de les transférer. Pour ce faire, envoyez un e-mail à {email}.",
+      "complaint": "Si vous n'êtes pas satisfait de la manière dont nous traitons vos données, vous pouvez introduire une plainte auprès de l'Autorité de protection des données, rue de la Presse 35, 1000 Bruxelles ({website}).",
+      "authorityWebsite": "www.autoriteprotectiondonnees.be"
+    },
+    "back": "Retour à la page d'accueil"
+  },
+  "notFound": {
+    "seoTitle": "Page introuvable",
+    "title": "404 - Page introuvable",
+    "back": "Retour à la {home}",
+    "home": "page d'accueil"
+  }
+}

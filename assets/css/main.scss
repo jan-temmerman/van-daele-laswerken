@@ -428,7 +428,7 @@ h1, h2, h3, p, a, .iconify, li {
     margin: 2rem 0 0;
   }
 
-  a:not(.cta) {
+  a:not([class]) {
     color: $primary-color;
   }
 

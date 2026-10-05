@@ -3,13 +3,19 @@
 
   <CSection class="not-found-section">
     <h1 class="not-found-title">
-      404 - Pagina niet gevonden
+      {{ $t('notFound.title') }}
     </h1>
-    <NuxtLink to="/" class="cta">
-      Terugkeren naar de <span class="text-primary">homepagina</span>
+    <NuxtLink :to="localePath('/')" class="cta">
+      <i18n-t keypath="notFound.back" scope="global">
+        <template #home><span class="text-primary">{{ $t('notFound.home') }}</span></template>
+      </i18n-t>
     </NuxtLink>
   </CSection>
 </template>
+
+<script setup lang="ts">
+const localePath = useLocalePath()
+</script>
 
 <style lang="scss">
 @use '@/assets/css/variables' as *;

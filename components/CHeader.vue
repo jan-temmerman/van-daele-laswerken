@@ -1,12 +1,14 @@
 <template>
     <div class="header">
-      <NuxtLink to="/" class="no-animation logo" aria-label="Laswerken Van Daele - home">
-        <NuxtImg src="/logo_mark.png" alt="Logo Laswerken Van Daele" width="96" height="87" densities="x1 x2" preload format="webp" class="logo"/>
+      <NuxtLink :to="localePath('/')" class="no-animation logo" :aria-label="$t('header.home')">
+        <NuxtImg src="/logo_mark.png" :alt="$t('header.logoAlt')" width="96" height="87" densities="x1 x2" preload format="webp" class="logo"/>
       </NuxtLink>
 
-      <NuxtLink to="/" class="no-animation logo-text" aria-label="Laswerken Van Daele - home">
+      <NuxtLink :to="localePath('/')" class="no-animation logo-text" :aria-label="$t('header.home')">
         <NuxtImg src="/logo_text.png" alt="Laswerken Van Daele" width="160" height="59" densities="x1 x2" preload format="webp" class="logo-text"/>
       </NuxtLink>
+
+      <CLanguageSwitcher placement="header"/>
 
       <div class="header-decoration"/>
     </div>
@@ -54,4 +56,5 @@
 }
 </style>
 <script setup lang="ts">
+const localePath = useLocalePath()
 </script>

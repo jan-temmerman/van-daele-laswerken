@@ -1,7 +1,7 @@
 <template>
   <div class="c-base-slider">
     <div class="c-base-slider-control">
-      <button aria-label="Vorige realisatie" @click="swiperEl.slidePrev()">
+      <button :aria-label="$t('home.cases.previous')" @click="swiperEl.slidePrev()">
         <Icon name="material-symbols:arrow-back-ios-new-rounded" :size="36"/>
       </button>
     </div>
@@ -11,7 +11,7 @@
     </Swiper>
 
     <div class="c-base-slider-control">
-      <button aria-label="Volgende realisatie" @click="swiperEl.slideNext()">
+      <button :aria-label="$t('home.cases.next')" @click="swiperEl.slideNext()">
         <Icon name="material-symbols:arrow-forward-ios-rounded" :size="36"/>
       </button>
     </div>

@@ -1,0 +1,153 @@
+{
+  "nuxtSiteConfig": {
+    "description": "Laswerken in staal, inox en aluminium: herstelling van landbouwmachines, kraanbakken en aanhangwagens. In onze werkplaats in Appels of ter plaatse."
+  },
+  "header": {
+    "home": "Laswerken Van Daele - home",
+    "logoAlt": "Logo Laswerken Van Daele",
+    "language": "Taal kiezen"
+  },
+  "hero": {
+    "sloganLine1": "Sterk in lassen,",
+    "sloganLine2": "Sterk in service.",
+    "title": "Laswerken in staal, inox & aluminium in Appels (Dendermonde), in de werkplaats of ter plaatse.",
+    "cta": "Bel ons",
+    "imageAlt": "De werkplaats van Laswerken Van Daele in Appels"
+  },
+  "home": {
+    "seo": {
+      "title": "Mobiel lassen in Appels & Dendermonde",
+      "description": "Laswerken in staal, inox en aluminium: herstelling van landbouwmachines, kraanbakken en aanhangwagens. In onze werkplaats in Appels of ter plaatse.",
+      "imageAlt": "Logo Laswerken Van Daele met contactgegevens"
+    },
+    "about": {
+      "title": "Over ons",
+      "text1": "Met ondertussen 10 jaar ervaring in de metaalsector biedt Laswerken Van Daele een snelle en kwalitatieve service. Wij lassen en herstellen landbouwmachines, kraanbakken, aanhangwagens, containers en andere metalen constructies. Dat kan in onze werkplaats in Appels (Dendermonde) of ter plaatse, wanneer de machine niet verplaatst kan worden.",
+      "text2": "Wij lassen staal, inox en aluminium met de technieken MIG, TIG en elektrode.",
+      "electrode": "Elektrode"
+    },
+    "services": {
+      "title": "Diensten",
+      "repair": {
+        "title": "Herstellingen van metalen constructies",
+        "text": "Scheuren, breuken en versleten onderdelen aan landbouwmachines, kraanbakken, aanhangwagens en containers vakkundig hersteld."
+      },
+      "onSite": {
+        "title": "Lassen op locatie",
+        "text": "Kan de machine of constructie niet naar de werkplaats? Dan komen wij ter plaatse lassen."
+      },
+      "hardfacing": {
+        "title": "Oplassen van slijtdelen",
+        "text": "Versleten slijtdelen van bijvoorbeeld kraanbakken en landbouwmachines opnieuw opgelast, zodat ze weer langer meegaan."
+      }
+    },
+    "cases": {
+      "title": "Realisaties",
+      "previous": "Vorige realisatie",
+      "next": "Volgende realisatie",
+      "liftingBeam": {
+        "title": "Hijsjuk voor het verplaatsen van bomen",
+        "text": "Tijdens een grote marktrenovatie in Zele zocht de gemeente een goede en veilige manier om de gezonde bomen te verplaatsen. De aannemer contacteerde mij en het resultaat is deze hijsjuk gemaakt voor het verplaatsen van bomen.",
+        "imageAlt1": "De zelfgemaakte hijsjuk in actie",
+        "imageAlt2": "Volledig zelfgemaakte hijsjuk voor het verplaatsen van bomen"
+      },
+      "vacuumTanker": {
+        "title": "Nieuwe bodem voor zuigwagen",
+        "text": "De zuigwagen van deze klant had nood aan een nieuwe bodem, dus hebben wij deze voorzien en ingelast.",
+        "imageAlt1": "Zuigwagen met een nieuwe bodem opgelast",
+        "imageAlt2": "Zuigwagen zonder bodem"
+      },
+      "towHitch": {
+        "title": "Afneembare trekhaak op duwblad",
+        "text": "Deze klant zocht een oplossing om een trekhaak op dit duwblad te monteren. Wij hebben een connectie stuk op het duwblad gelast waaraan een trekhaak gemonteerd kan worden.",
+        "imageAlt1": "Trekhaak die aan onze opgelaste connectie is gemonteerd",
+        "imageAlt2": "Connectie die wij aan het duwblad van een machine gelast hebben"
+      }
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "items": [
+        {
+          "question": "Komen jullie ook ter plaatse lassen?",
+          "answer": "Ja. Het werk kan in onze werkplaats in Appels gebeuren, maar wij komen ook ter plaatse wanneer de machine of constructie niet verplaatst kan worden."
+        },
+        {
+          "question": "Welke materialen kunnen jullie lassen?",
+          "answer": "Wij lassen staal, inox en aluminium."
+        },
+        {
+          "question": "Welke lastechnieken gebruiken jullie?",
+          "answer": "Wij werken met MIG, TIG en elektrode, afhankelijk van het materiaal en de toepassing."
+        },
+        {
+          "question": "In welke regio werken jullie?",
+          "answer": "Onze werkplaats ligt in Appels (Dendermonde). Van daaruit werken wij in de ruime regio Dendermonde."
+        },
+        {
+          "question": "Hoe vraag ik een prijs of offerte aan?",
+          "answer": "Bel ons op {phone} of stuur een mail naar {email} met een korte omschrijving en eventueel foto's van het werk."
+        }
+      ]
+    },
+    "contact": {
+      "ctaTitle": "Laswerk nodig?",
+      "ctaText": "Neem contact met ons op om je probleem of idee te bespreken of meer informatie over onze diensten te verkrijgen.",
+      "ctaButton": "Stuur ons een mail",
+      "title": "Contact",
+      "workshop": "Werkplaats:",
+      "vat": "Ondernemingsnummer / btw:"
+    }
+  },
+  "privacy": {
+    "seo": {
+      "description": "Hoe Laswerken Van Daele omgaat met je persoonsgegevens."
+    },
+    "title": "Privacyverklaring",
+    "updated": "Laatst bijgewerkt op 2 oktober 2026",
+    "who": {
+      "title": "Wie is verantwoordelijk?",
+      "text": "Laswerken Van Daele is de handelsnaam van Robin Van Daele, ondernemingsnummer BE\u00a00781.289.666. Hij is verantwoordelijk voor de verwerking van je persoonsgegevens zoals beschreven in deze privacyverklaring.",
+      "address": "Adres:",
+      "email": "E-mail:",
+      "phone": "Telefoon:"
+    },
+    "data": {
+      "title": "Welke gegevens verwerken wij?",
+      "text": "Wanneer je ons mailt of belt, verwerken wij de gegevens die je zelf doorgeeft, zoals je naam, e-mailadres, telefoonnummer, adres, de inhoud van je bericht en eventuele foto's van het werk. Wanneer wij een opdracht voor je uitvoeren, verwerken wij ook de gegevens die nodig zijn voor de offerte en de facturatie."
+    },
+    "purpose": {
+      "title": "Waarom verwerken wij deze gegevens?",
+      "items": [
+        "Om je vraag te beantwoorden of een offerte op te maken, op jouw verzoek.",
+        "Om de opdracht uit te voeren en te factureren, op basis van de overeenkomst met jou.",
+        "Om te voldoen aan onze wettelijke verplichtingen, zoals de boekhoudkundige en fiscale verplichtingen."
+      ],
+      "text": "Wij gebruiken je gegevens niet voor reclame en verkopen ze niet aan derden."
+    },
+    "sharing": {
+      "title": "Met wie delen wij je gegevens?",
+      "text": "Wij delen je gegevens enkel wanneer dat nodig is, bijvoorbeeld met onze boekhouder, onze e-maildienst en de hostingpartij van deze website, of wanneer de wet ons daartoe verplicht."
+    },
+    "website": {
+      "title": "Deze website",
+      "text": "Deze website gebruikt geen cookies en geen analyse- of trackingdiensten. De website wordt gehost door Cloudflare. Bij een bezoek worden technische gegevens zoals je IP-adres verwerkt om de website te kunnen tonen en te beveiligen. De link naar Google Maps opent een externe website, waarop het privacybeleid van Google van toepassing is."
+    },
+    "retention": {
+      "title": "Hoe lang bewaren wij je gegevens?",
+      "text": "Wij bewaren je gegevens niet langer dan nodig voor het doel waarvoor ze verzameld zijn. Gegevens die wij voor de boekhouding en de btw moeten bijhouden, bewaren wij zolang de wet dat vereist."
+    },
+    "rights": {
+      "title": "Jouw rechten",
+      "text": "Je hebt het recht om je gegevens in te kijken, te laten verbeteren of te laten wissen. Je kan ook vragen om de verwerking te beperken, je verzetten tegen de verwerking of je gegevens opvragen om ze over te dragen. Stuur hiervoor een e-mail naar {email}.",
+      "complaint": "Ben je niet tevreden over hoe wij met je gegevens omgaan, dan kan je een klacht indienen bij de Gegevensbeschermingsautoriteit, Drukpersstraat 35, 1000 Brussel ({website}).",
+      "authorityWebsite": "www.gegevensbeschermingsautoriteit.be"
+    },
+    "back": "Terug naar de homepagina"
+  },
+  "notFound": {
+    "seoTitle": "Pagina niet gevonden",
+    "title": "404 - Pagina niet gevonden",
+    "back": "Terugkeren naar de {home}",
+    "home": "homepagina"
+  }
+}

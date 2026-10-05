@@ -1,0 +1,153 @@
+{
+  "nuxtSiteConfig": {
+    "description": "Welding of steel, stainless steel and aluminium: repair of agricultural machinery, excavator buckets and trailers. In our workshop in Appels or on site."
+  },
+  "header": {
+    "home": "Laswerken Van Daele - home",
+    "logoAlt": "Laswerken Van Daele logo",
+    "language": "Choose language"
+  },
+  "hero": {
+    "sloganLine1": "Strong in welding,",
+    "sloganLine2": "Strong in service.",
+    "title": "Welding of steel, stainless steel & aluminium in Appels (Dendermonde), in our workshop or on site.",
+    "cta": "Call us",
+    "imageAlt": "The Laswerken Van Daele workshop in Appels"
+  },
+  "home": {
+    "seo": {
+      "title": "Mobile welding in Appels & Dendermonde",
+      "description": "Welding of steel, stainless steel and aluminium: repair of agricultural machinery, excavator buckets and trailers. In our workshop in Appels or on site.",
+      "imageAlt": "Laswerken Van Daele logo with contact details"
+    },
+    "about": {
+      "title": "About us",
+      "text1": "With 10 years of experience in the metal industry, Laswerken Van Daele offers a fast, high-quality service. We weld and repair agricultural machinery, excavator buckets, trailers, containers and other metal structures. The work can be done in our workshop in Appels (Dendermonde) or on site, when the machine cannot be moved.",
+      "text2": "We weld steel, stainless steel and aluminium using MIG, TIG and stick welding.",
+      "electrode": "Stick"
+    },
+    "services": {
+      "title": "Services",
+      "repair": {
+        "title": "Repair of metal structures",
+        "text": "Cracks, breaks and worn parts on agricultural machinery, excavator buckets, trailers and containers, expertly repaired."
+      },
+      "onSite": {
+        "title": "On-site welding",
+        "text": "Can't bring the machine or structure to the workshop? Then we come and weld on site."
+      },
+      "hardfacing": {
+        "title": "Hardfacing of wear parts",
+        "text": "Worn wear parts, for example of excavator buckets and agricultural machinery, are built up again by welding so they last longer."
+      }
+    },
+    "cases": {
+      "title": "Projects",
+      "previous": "Previous project",
+      "next": "Next project",
+      "liftingBeam": {
+        "title": "Lifting beam for moving trees",
+        "text": "During a major renovation of the market square in Zele, the municipality was looking for a good and safe way to move the healthy trees. The contractor contacted me, and the result is this lifting beam built for moving trees.",
+        "imageAlt1": "The custom-built lifting beam in action",
+        "imageAlt2": "Fully custom-built lifting beam for moving trees"
+      },
+      "vacuumTanker": {
+        "title": "New bottom for a vacuum tanker",
+        "text": "This customer's vacuum tanker needed a new bottom, so we made one and welded it in.",
+        "imageAlt1": "Vacuum tanker with its new bottom welded in",
+        "imageAlt2": "Vacuum tanker without its bottom"
+      },
+      "towHitch": {
+        "title": "Removable tow hitch on a push blade",
+        "text": "This customer was looking for a way to mount a tow hitch on this push blade. We welded a connecting piece onto the blade to which a tow hitch can be mounted.",
+        "imageAlt1": "Tow hitch mounted on the connecting piece we welded on",
+        "imageAlt2": "Connecting piece we welded onto the push blade of a machine"
+      }
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Do you also weld on site?",
+          "answer": "Yes. The work can be done in our workshop in Appels, but we also come to you when the machine or structure cannot be moved."
+        },
+        {
+          "question": "Which materials can you weld?",
+          "answer": "We weld steel, stainless steel and aluminium."
+        },
+        {
+          "question": "Which welding processes do you use?",
+          "answer": "We use MIG, TIG and stick welding, depending on the material and the application."
+        },
+        {
+          "question": "Which area do you cover?",
+          "answer": "Our workshop is in Appels (Dendermonde). From there, we work throughout the wider Dendermonde area."
+        },
+        {
+          "question": "How do I ask for a price or a quote?",
+          "answer": "Call us on {phone} or send an email to {email} with a short description and, if possible, photos of the job."
+        }
+      ]
+    },
+    "contact": {
+      "ctaTitle": "Need welding work?",
+      "ctaText": "Get in touch to discuss your problem or idea, or to find out more about our services.",
+      "ctaButton": "Send us an email",
+      "title": "Contact",
+      "workshop": "Workshop:",
+      "vat": "Company number / VAT:"
+    }
+  },
+  "privacy": {
+    "seo": {
+      "description": "How Laswerken Van Daele handles your personal data."
+    },
+    "title": "Privacy policy",
+    "updated": "Last updated on 2 October 2026",
+    "who": {
+      "title": "Who is responsible?",
+      "text": "Laswerken Van Daele is the trade name of Robin Van Daele, company number BE 0781.289.666. He is responsible for the processing of your personal data as described in this privacy policy.",
+      "address": "Address:",
+      "email": "Email:",
+      "phone": "Phone:"
+    },
+    "data": {
+      "title": "What data do we process?",
+      "text": "When you email or call us, we process the data you provide yourself, such as your name, email address, phone number, address, the content of your message and any photos of the job. When we carry out a job for you, we also process the data needed for the quote and the invoice."
+    },
+    "purpose": {
+      "title": "Why do we process this data?",
+      "items": [
+        "To answer your question or prepare a quote, at your request.",
+        "To carry out and invoice the job, on the basis of our agreement with you.",
+        "To comply with our legal obligations, such as our accounting and tax obligations."
+      ],
+      "text": "We do not use your data for advertising and do not sell it to third parties."
+    },
+    "sharing": {
+      "title": "Who do we share your data with?",
+      "text": "We only share your data when necessary, for example with our accountant, our email provider and the hosting provider of this website, or when the law requires us to."
+    },
+    "website": {
+      "title": "This website",
+      "text": "This website does not use cookies or any analytics or tracking services. The website is hosted by Cloudflare. When you visit, technical data such as your IP address is processed in order to display and secure the website. The link to Google Maps opens an external website, to which Google's privacy policy applies."
+    },
+    "retention": {
+      "title": "How long do we keep your data?",
+      "text": "We do not keep your data longer than necessary for the purpose for which it was collected. Data that we must keep for accounting and VAT purposes is kept for as long as the law requires."
+    },
+    "rights": {
+      "title": "Your rights",
+      "text": "You have the right to access your data, to have it corrected or to have it deleted. You can also ask us to restrict the processing, object to the processing or request your data in order to transfer it. To do so, send an email to {email}.",
+      "complaint": "If you are not satisfied with how we handle your data, you can lodge a complaint with the Data Protection Authority, Rue de la Presse 35, 1000 Brussels ({website}).",
+      "authorityWebsite": "www.dataprotectionauthority.be"
+    },
+    "back": "Back to the homepage"
+  },
+  "notFound": {
+    "seoTitle": "Page not found",
+    "title": "404 - Page not found",
+    "back": "Back to the {home}",
+    "home": "homepage"
+  }
+}
