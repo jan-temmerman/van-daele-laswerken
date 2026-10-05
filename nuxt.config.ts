@@ -1,4 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+// Afbeeldingen van de homepage voor de sitemap. Dit zijn de src-URL's die NuxtImg op de pagina zet
+// (enkel die bestanden worden gegenereerd): pas ze mee aan als de afbeeldingen of hun sizes veranderen.
+const homeImages = [
+  '/_ipx/w_1844&f_webp/hero_image.png',
+  '/_ipx/f_webp/cases/case_1_1.png',
+  '/_ipx/f_webp/cases/case_1_2.png',
+  '/_ipx/f_webp/cases/case_2_1.png',
+  '/_ipx/f_webp/cases/case_2_2.png',
+  '/_ipx/f_webp/cases/case_3_1.png',
+  '/_ipx/f_webp/cases/case_3_2.png',
+].map(loc => ({ loc }))
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   ssr: true,
@@ -65,8 +78,13 @@ export default defineNuxtConfig({
     },
   },
   // Eén sitemap.xml met alle talen (en hreflang-alternatieven) in plaats van een sitemap per taal
-  // De URL's komen uit i18n.pages (met hreflang); de geprerenderde routes zouden ze dubbel toevoegen
-  sitemap: { sitemaps: false, excludeAppSources: ['nuxt:prerender'] },
+  // De URL's komen uit i18n.pages (met hreflang); de geprerenderde routes en de routeRules hieronder zouden ze dubbel toevoegen
+  sitemap: { sitemaps: false, excludeAppSources: ['nuxt:prerender', 'nuxt:route-rules'] },
+  routeRules: {
+    '/': { sitemap: { images: homeImages } },
+    '/fr': { sitemap: { images: homeImages } },
+    '/en': { sitemap: { images: homeImages } },
+  },
   ogImage: { enabled: false },
   fonts: {
     defaults: {

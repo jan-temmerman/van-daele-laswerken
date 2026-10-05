@@ -43,3 +43,4 @@ De site bestaat in het Nederlands (`/`), Frans (`/fr`) en Engels (`/en`), via `@
 - Site-instellingen, LocalBusiness-schema en talen staan in `nuxt.config.ts` (`site`, `schemaOrg` en `i18n`).
 - Titel, description, social preview en FAQ-schema van de homepage komen uit de vertaalbestanden en worden ingesteld in `pages/index.vue`.
 - `robots.txt` en `sitemap.xml` worden automatisch gegenereerd door `@nuxtjs/seo`. De sitemap bevat alle talen met hreflang-alternatieven.
+- De afbeeldingen in de sitemap staan in `homeImages` in `nuxt.config.ts`. Dat zijn de `/_ipx/...`-URL's die NuxtImg op de homepage gebruikt: pas die lijst aan als je afbeeldingen toevoegt, verwijdert of hun `sizes` wijzigt.
